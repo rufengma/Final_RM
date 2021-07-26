@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{AC4DE488-A473-446C-8E33-CE83AF84AB60}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelManagement.MVC/Startup.cs">
+    <Files>
+      <File FileName="HotelManagement.Infrastructure/Data/HotelDbContext.cs" Line="63" Column="77" />
+      <File FileName="HotelManagement.Core/Entities/Service.cs" Line="16" Column="20" />
+      <File FileName="HotelManagement.Core/Entities/Room.cs" Line="17" Column="59" />
+      <File FileName="HotelManagement.Core/Entities/Customer.cs" Line="17" Column="16" />
+      <File FileName="HotelManagement.MVC/appsettings.json" Line="13" Column="22" />
+      <File FileName="HotelManagement.MVC/Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HotelManagement" expanded="True">
+            <Node name="HotelManagement.Core" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="HotelManagement.Infrastructure" expanded="True">
+              <Node name="Data" expanded="True" />
+            </Node>
+            <Node name="HotelManagement.MVC" expanded="True">
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HotelManagement.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HotelManagement.Core FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
