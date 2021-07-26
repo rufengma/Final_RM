@@ -1,2 +1,4 @@
 # Final_RM
-Final Project from Rufeng Ma
+This is a Hotel Management System
+Front end: MVC
+Backend: .Net
