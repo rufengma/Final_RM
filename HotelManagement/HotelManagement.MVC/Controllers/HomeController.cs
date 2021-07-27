@@ -6,27 +6,25 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using HotelManagement.MVC.Models;
+using HotelManagement.Core.ServiceInterfaces;
 
 namespace HotelManagement.MVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ICustomerService _customerService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ICustomerService customerService)
         {
-            _logger = logger;
+            _customerService = customerService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var movies = await _customerService.GetAllCustomers();
+            return View(movies);
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

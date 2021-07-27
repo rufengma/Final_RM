@@ -1,8 +1,23 @@
-﻿@{
+﻿@model List<HotelManagement.Core.Entities.Customer>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="col-8">
+    <h2>Customers</h2>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Id</td>
+                <td>Customer Name</td>
+                <td>Room Number</td>
+            </tr>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <partial name="_CustomerCard" model="customer">
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>

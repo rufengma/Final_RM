@@ -1,24 +1,36 @@
 ﻿<Properties StartupConfiguration="{AC4DE488-A473-446C-8E33-CE83AF84AB60}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HotelManagement.Infrastructure/Repositories/EfRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelManagement.MVC/Views/Customer/Detail.cshtml">
     <Files>
-      <File FileName="HotelManagement.Core/Entities/Customer.cs" Line="16" Column="1" />
-      <File FileName="HotelManagement.Core/RepositoryInterfaces/ICustomerRepository.cs" />
-      <File FileName="HotelManagement.Core/RepositoryInterfaces/IAsyncRepository.cs" />
-      <File FileName="HotelManagement.Infrastructure/Repositories/EfRepository.cs" Line="28" Column="1" />
+      <File FileName="HotelManagement.Infrastructure/Services/CustomerService.cs" Line="52" Column="42" />
+      <File FileName="HotelManagement.MVC/Controllers/CustomerController.cs" Line="26" Column="10" />
+      <File FileName="HotelManagement.MVC/Views/Customer/Detail.cshtml" Line="27" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HotelManagement" expanded="True">
             <Node name="HotelManagement.Core" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="RepositoryInterfaces" expanded="True" />
+              <Node name="ServiceInterfaces" expanded="True" />
             </Node>
             <Node name="HotelManagement.Infrastructure" expanded="True">
-              <Node name="Repositories" expanded="True">
-                <Node name="EfRepository.cs" selected="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="HotelManagement.MVC" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Customer" expanded="True">
+                  <Node name="Detail.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
-            <Node name="HotelManagement.MVC" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -27,7 +39,6 @@
   <MonoDevelop.Ide.ItemProperties.HotelManagement.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.HotelManagement.Core FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
