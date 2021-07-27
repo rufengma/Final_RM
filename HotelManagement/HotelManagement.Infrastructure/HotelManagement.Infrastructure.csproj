@@ -12,6 +12,8 @@
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Microsoft.AspNetCore.Cryptography.KeyDerivation" />
     <None Remove="Data\" />
+    <None Remove="Services\" />
+    <None Remove="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.8" />
@@ -33,6 +35,8 @@
 
       <ItemGroup>
         <Folder Include="Data\" />
+        <Folder Include="Services\" />
+        <Folder Include="Repositories\" />
       </ItemGroup>
       <ItemGroup>
         <ProjectReference Include="..\HotelManagement.Core\HotelManagement.Core.csproj" />
