@@ -1,0 +1,53 @@
+﻿@model HotelManagement.Core.Models.CustomerDetailResponseModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="col-8">
+    <h2>Customers</h2>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Id</td>
+                <td>@Model.Id</td>
+            </tr>
+            <tr>
+                <td>Customer Name:</td>
+                <td>@Model.CName</td>
+            </tr>
+            <tr>
+                <td>Room Number:</td>
+                <td>@Model.RoomNo</td>
+            </tr>
+            <tr>
+                <td>Services:</td>
+                <td>
+                    @foreach (var service in Model.roomModel.serviceModels)
+                    {
+                    <div>@service.SDesc</div>
+                    }
+                    </td>
+            
+            <tr>
+                <td>Phone:</td>
+                <td>@Model.Phone</td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>@Model.Address</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>@Model.Email</td>
+            </tr>
+            <tr>
+                <td>Checkin:</td>
+                <td>@Model.Checkin</td>
+            </tr>
+            <tr>
+                <td>Booking Days:</td>
+                <td>@Model.BookingDays</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

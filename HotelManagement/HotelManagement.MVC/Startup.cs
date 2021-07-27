@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HotelManagement.Core.ServiceInterfaces;
 using HotelManagement.Infrastructure.Data;
+using HotelManagement.Infrastructure.Services;
+using HotelManagement.Core.RepositoryInterfaces;
+using HotelManagement.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +31,8 @@ namespace HotelManagement.MVC
         {
             services.AddControllersWithViews();
             services.AddHttpContextAccessor();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<ICustomerService, CustomerService>();
             services.AddDbContext<HotelDbContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("HotelDbConnection"));
             });

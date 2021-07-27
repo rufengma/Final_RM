@@ -1,0 +1,19 @@
+﻿@model HotelManagement.Core.Entities.Customer
+
+<td>
+    <a asp-controller="Customer" asp-action="Detail" asp-route-id="@Model.Id">
+        @Model.Id
+    </a>
+</td>
+
+<td>
+    <a asp-controller="Customer" asp-action="Detail" asp-route-id="@Model.Id">
+        @Model.CName
+    </a>
+</td>
+
+<td>
+    <a asp-controller="Customer" asp-action="Detail" asp-route-id="@Model.Id">
+        @Model.RoomNo
+    </a>
+</td>
