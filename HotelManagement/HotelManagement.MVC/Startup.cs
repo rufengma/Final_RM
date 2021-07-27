@@ -33,6 +33,13 @@ namespace HotelManagement.MVC
             services.AddHttpContextAccessor();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IServiceRepository, ServiceRepository>();
+            services.AddScoped<IServiceService, ServiceService>();
+            services.AddScoped<IRoomRepository, RoomRepository>();
+            services.AddScoped<IRoomService, RoomService>();
+            services.AddScoped<IRoomtypeRepository, RoomtypeRepository>();
+            services.AddScoped<IRoomtypeService, RoomtypeService>();
+
             services.AddDbContext<HotelDbContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("HotelDbConnection"));
             });

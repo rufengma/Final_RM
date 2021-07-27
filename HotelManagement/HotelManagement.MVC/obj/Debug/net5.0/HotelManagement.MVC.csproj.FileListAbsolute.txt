@@ -76,3 +76,8 @@
 /Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/bin/Debug/net5.0/HotelManagement.Infrastructure.pdb
 /Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Shared/_CustomerCard.cshtml.g.cs
 /Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Customer/Detail.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Shared/_SearchCustomer.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Customer/AddCustomer.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Service/addservice.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Room/AddRoom.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Roomtype/AddRoomtype.cshtml.g.cs

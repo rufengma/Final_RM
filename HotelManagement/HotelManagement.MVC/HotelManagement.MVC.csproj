@@ -11,6 +11,9 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Microsoft.EntityFrameworkCore.Relational" />
     <None Remove="Views\Customer\" />
+    <None Remove="Views\Service\" />
+    <None Remove="Views\Room\" />
+    <None Remove="Views\Roomtype\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.8">
@@ -35,5 +38,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Customer\" />
+    <Folder Include="Views\Service\" />
+    <Folder Include="Views\Room\" />
+    <Folder Include="Views\Roomtype\" />
   </ItemGroup>
 </Project>

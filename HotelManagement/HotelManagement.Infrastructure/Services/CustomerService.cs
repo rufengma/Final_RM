@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using HotelManagement.Core.Entities;
 using System.Collections.Generic;
 using HotelManagement.Core.Models;
+using ApplicationCore.Exceptions;
 
 namespace HotelManagement.Infrastructure.Services
 {
@@ -17,6 +18,31 @@ namespace HotelManagement.Infrastructure.Services
             _customerRepository = customerRepository;
         }
 
+        public async Task<bool> AddCustomer(AddCustomerModel requestCustomer)
+        {
+
+            var customer = new Customer
+            {
+                Id = requestCustomer.Id,
+                RoomNo = requestCustomer.RoomNo,
+                CName = requestCustomer.CName,
+                Address = requestCustomer.Address,
+                Phone = requestCustomer.Phone,
+                Email = requestCustomer.Email,
+                Checkin = requestCustomer.Checkin,
+                TotalPersons = requestCustomer.TotalPersons,
+                BookingDays = requestCustomer.BookingDays,
+                Advance = requestCustomer.Advance
+            };
+            var createdCustomer = await _customerRepository.AddAsync(customer);
+            if (createdCustomer != null && createdCustomer.Id > 0)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
         public async Task<List<Customer>> GetAllCustomers()//this is entity
         {
             var customers = await _customerRepository.ListAllAsync();
@@ -25,6 +51,10 @@ namespace HotelManagement.Infrastructure.Services
         public async Task<CustomerDetailResponseModel> GetCustomerById(int id)
         {
             var customer = await _customerRepository.GetCustomerByIdAsync(id);
+            if (customer == null)
+            {
+                throw new NotFoundException("This customer does not exist");
+            }
             var customerDetails = new CustomerDetailResponseModel()
             {
                 Id = customer.Id,
@@ -50,12 +80,10 @@ namespace HotelManagement.Infrastructure.Services
                         Id = ser.Id,
                         RoomNo = ser.RoomNo,
                         SDesc = ser.SDesc
-
                     });
 
             }
             return customerDetails;
-    }
-
+        }
     }
 }

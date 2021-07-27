@@ -1,0 +1,59 @@
+﻿@model HotelManagement.Core.Models.AddCustomerModel
+@{
+    ViewData["Title"] = "addcustomer";
+}
+<div class="row">
+    <div class="col-md-3">
+        <h3>Add Customer</h3>
+        <form asp-action="AddCustomer">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                <label asp-for="RoomNo">Room Number</label>
+                <input asp-for="RoomNo" class="form-control" />
+                <span asp-validation-for="RoomNo" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="CName">Customer Name</label>
+                <input asp-for="CName" class="form-control" />
+                <span asp-validation-for="CName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone">Phone</label>
+                <input asp-for="Phone" class="form-control">
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" class="form-control">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address">Address</label>
+                <input asp-for="Address" class="form-control">
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Checkin">Date of Checkin</label>
+                <input asp-for="Checkin" class="form-control">
+                <span asp-validation-for="Checkin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalPersons">Total persons</label>
+                <input asp-for="TotalPersons" class="form-control">
+                <span asp-validation-for="TotalPersons" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookingDays">Booking days</label>
+                <input asp-for="BookingDays" class="form-control">
+                <span asp-validation-for="BookingDays" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Advance">Advance</label>
+                <input asp-for="Advance" class="form-control">
+                <span asp-validation-for="Advance" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+
+    </div>
+</div>

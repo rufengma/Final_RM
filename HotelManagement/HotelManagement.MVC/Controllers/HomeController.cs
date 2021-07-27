@@ -22,8 +22,14 @@ namespace HotelManagement.MVC.Controllers
         public async Task<IActionResult> Index()
         {
             var movies = await _customerService.GetAllCustomers();
+
             return View(movies);
         }
+        public IActionResult Search()
+        {
+            return View();
+        }
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
