@@ -1,0 +1,18 @@
+﻿@model HotelManagement.Core.Models.CustomerDetailResponseModel
+
+<div class="col-12">
+    <h2>Search Customer By Id</h2>
+    <div class="input-group">
+        <div class="form-outline">
+
+            <a asp-controller="Home" asp-action="SearchCustomer" asp-route-id="@Model.Id">
+                <input type="search" id="form1" class="form-control" />
+                @Model.Id
+            </a>
+            <label class="form-label" for="form1"></label>
+        </div>
+        <button type="button" class="btn btn-primary">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+</div>

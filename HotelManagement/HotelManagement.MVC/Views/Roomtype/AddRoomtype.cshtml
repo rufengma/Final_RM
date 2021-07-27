@@ -1,0 +1,24 @@
+﻿@model HotelManagement.Core.Models.AddRoomtypeModel
+@{
+    ViewData["Title"] = "addRoomtype";
+}
+<div class="row">
+    <div class="col-md-3">
+        <h3>Add Roomtype</h3>
+        <form asp-action="AddRoomtype">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label asp-for="RTDesc">Roomtype Description</label>
+                <input asp-for="RTDesc" class="form-control" />
+                <span asp-validation-for="RTDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rent">Rent Per Day</label>
+                <input asp-for="Rent" class="form-control">
+                <span asp-validation-for="Rent" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+    </div>
+</div>

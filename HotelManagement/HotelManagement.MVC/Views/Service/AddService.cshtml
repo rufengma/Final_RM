@@ -1,0 +1,35 @@
+﻿@model HotelManagement.Core.Models.AddServiceModel
+@{
+    ViewData["Title"] = "addservice";
+}
+<div class="row">
+    <div class="col-md-3">
+        <h3>Add Service</h3>
+        <form asp-action="AddService">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label asp-for="RoomNo">Room Number</label>
+                <input asp-for="RoomNo" class="form-control" />
+                <span asp-validation-for="RoomNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SDesc">service describe</label>
+                <input asp-for="SDesc" class="form-control">
+                <span asp-validation-for="SDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount">Amount$</label>
+                <input asp-for="Amount" class="form-control">
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceDate">Service Date</label>
+                <input asp-for="ServiceDate" class="form-control">
+                <span asp-validation-for="ServiceDate" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+
+    </div>
+</div>
