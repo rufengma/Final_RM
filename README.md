@@ -4,9 +4,9 @@ This is a Hotel Management System
 -- Front end: MVC</p>
 -- Backend: .Net 5</p>
 <h3>Before Run this project in VS,some suggestions</h3></p>
-1.If you are on a Windows system, please go to <appsetting.json> to change the Connection String to your server IP.</p>
-2.Run sql server</p>
-3.Migration once.</p>
+1. If you are on a Windows system, please go to <appsetting.json> to change the Connection String to your server IP.</p>
+2. Run sql server</p>
+3. Migration once.</p>
 macOS==></p>
 -- Make sure your Azure and SQL server are running.</p>
 -- terminal: cd HotelManagement.MVC </p>
