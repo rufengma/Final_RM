@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using HotelManagement.Core.Entities;
 using HotelManagement.Core.Models;
@@ -43,6 +44,11 @@ namespace HotelManagement.Infrastructure.Services
         {
             return await _roomtypeRepository.GetByIdAsync(id);
         }
-        
+        public async Task<List<Roomtype>> GetAllRoomtypes()//this is entity
+        {
+            var Roomtypes = await _roomtypeRepository.ListAllAsync();
+            return Roomtypes;
+        }
+
     }
 }

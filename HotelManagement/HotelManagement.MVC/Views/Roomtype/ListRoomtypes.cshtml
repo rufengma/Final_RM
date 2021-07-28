@@ -1,0 +1,31 @@
+﻿@model List<HotelManagement.Core.Entities.Roomtype>
+@{
+    ViewData["Title"] = "ListRoomtypes";
+}
+
+<div class="col-12">
+    <h2>Roomtypes Table</h2>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Id</td>
+                <td>Room Description</td>
+                <td>Price</td>
+            </tr>
+            @foreach (var roomtype in Model)
+            {
+                <tr>
+                    <td>
+                        @roomtype.Id
+                    </td>
+                    <td>
+                        @roomtype.RTDesc
+                    </td>
+                    <td>
+                        $ @roomtype.Rent
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

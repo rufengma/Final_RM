@@ -1,0 +1,39 @@
+﻿@model List<HotelManagement.Core.Entities.Service>
+@{
+    ViewData["Title"] = "ListServices";
+}
+
+<div class="col-12">
+    <h2>Services Table</h2>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Id</td>
+                <td>Room Number</td>
+                <td>Service Description</td>
+                <td>Amount</td>
+                <td>Service Date</td>
+            </tr>
+            @foreach (var service in Model)
+            {
+                <tr>
+                    <td>
+                        @service.Id
+                    </td>
+                    <td>
+                        @service.RoomNo
+                    </td>
+                    <td>
+                        @service.SDesc
+                    </td>
+                    <td>
+                        $ @service.Amount
+                    </td>
+                    <td>
+                        @service.ServiceDate
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

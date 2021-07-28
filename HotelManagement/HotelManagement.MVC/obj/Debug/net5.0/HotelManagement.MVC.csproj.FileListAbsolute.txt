@@ -172,3 +172,9 @@
 /Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/ref/HotelManagement.MVC.dll
 /Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/HotelManagement.MVC.pdb
 /Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/HotelManagement.MVC.genruntimeconfig.cache
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Room/ListRooms.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Roomtype/ListRoomtypes.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Service/ListServices.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Room/ListRooms.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Roomtype/ListRoomtypes.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Service/ListServices.cshtml.g.cs

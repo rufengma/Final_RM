@@ -59,5 +59,11 @@ namespace HotelManagement.MVC.Controllers
             var existService = await _serviceService.SearchService(model.Id);
             return View(existService);
         }
+        public async Task<IActionResult> ListServices()
+        {
+            var services = await _serviceService.GetAllServices();
+
+            return View(services);
+        }
     }
 }

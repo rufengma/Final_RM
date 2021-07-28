@@ -56,5 +56,12 @@ namespace HotelManagement.MVC.Controllers
             var existRoom = await _roomService.SearchRoom(model.Id);
             return View(existRoom);
         }
+
+        public async Task<IActionResult> ListRooms()
+        {
+            var rooms = await _roomService.GetAllRooms();
+
+            return View(rooms);
+        }
     }
 }

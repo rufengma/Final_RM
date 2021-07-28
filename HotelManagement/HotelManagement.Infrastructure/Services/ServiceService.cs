@@ -49,7 +49,11 @@ namespace HotelManagement.Infrastructure.Services
         {
             return await _serviceRepository.GetByIdAsync(id);
         }
-
+        public async Task<List<Service>> GetAllServices()//this is entity
+        {
+            var Services = await _serviceRepository.ListAllAsync();
+            return Services;
+        }
 
 
     }
