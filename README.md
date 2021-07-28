@@ -7,12 +7,12 @@ This is a Hotel Management System
 1.If you are on a Windows system, please go to <appsetting.json> to change the Connection String to your server IP.</p>
 2.Run sql server</p>
 3.Migration once.</p>
-macOS==>
--- Make sure your Azure and SQL server are running.
+macOS==></p>
+-- Make sure your Azure and SQL server are running.</p>
 -- terminal: cd HotelManagement.MVC </p>
 -- terminal: dotnet ef migrations add initialTables --project ../Infrastructure/Infrastructure.csproj</p>
--- VS: check <migration> file
--- terminal: dotnet ef database update
+-- VS: check <migration> file</p>
+-- terminal: dotnet ef database update</p>
 4.Run the <inserteData.sql> file in your Azure Data Studio sql server management studio (SSMS).</p>
 
 <h3>Schema</h3>
