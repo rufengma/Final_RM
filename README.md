@@ -8,7 +8,7 @@ Backend: .Net 5
 <img src="Schema.png" height="400">
 </p>
 <h3>Homepage</h3>
-<img src="Homepage.png" height="350">
+<img src="Homepage.png" height="300">
 </p>
 <h3>Example Of Add/Delete/Update/Search</h3>
 <img src="Example.png" height="350">
