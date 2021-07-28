@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{AC4DE488-A473-446C-8E33-CE83AF84AB60}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HotelManagement.MVC/Controllers/RoomtypeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelManagement.MVC/Views/Roomtype/AddRoomtype.cshtml">
     <Files>
-      <File FileName="HotelManagement.MVC/Startup.cs" Line="38" Column="35" />
-      <File FileName="HotelManagement.Core/ServiceInterfaces/IRoomtypeService.cs" Line="8" Column="38" />
-      <File FileName="HotelManagement.MVC/Controllers/RoomtypeController.cs" Line="15" Column="10" />
+      <File FileName="HotelManagement.MVC/Controllers/RoomtypeController.cs" Line="57" Column="10" />
+      <File FileName="HotelManagement.Infrastructure/Services/RoomtypeService.cs" Line="42" Column="59" />
+      <File FileName="HotelManagement.Core/ServiceInterfaces/IRoomtypeService.cs" Line="15" Column="2" />
+      <File FileName="HotelManagement.MVC/Views/Roomtype/SearchRoomtype.cshtml" Line="10" Column="1" />
+      <File FileName="HotelManagement.MVC/Views/Roomtype/AddRoomtype.cshtml" Line="71" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,13 +24,11 @@
               <Node name="Services" expanded="True" />
             </Node>
             <Node name="HotelManagement.MVC" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="RoomtypeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Customer" expanded="True" />
-                <Node name="Room" expanded="True" />
-                <Node name="Roomtype" expanded="True" />
+                <Node name="Roomtype" expanded="True">
+                  <Node name="AddRoomtype.cshtml" selected="True" />
+                </Node>
                 <Node name="Service" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>

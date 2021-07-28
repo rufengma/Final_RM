@@ -1,0 +1,23 @@
+﻿@model HotelManagement.Core.Entities.Roomtype
+
+@{
+    ViewData["Title"] = "Roomtype By Id";
+}
+
+<h5>Roomtype with Id = @Model.Id</h5>
+<table class="table">
+    <tbody>
+
+        <tr>
+            <td>ID</td>
+            <td>Room Description</td>
+            <td>Room Price</td>
+        </tr>
+
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.RTDesc</td>
+            <td>@Model.Rent</td>
+        </tr>
+    </tbody>
+</table>

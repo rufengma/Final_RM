@@ -44,9 +44,8 @@ namespace HotelManagement.Infrastructure.Repositories
             return await _dbContext.Set<T>().ToListAsync();
         }
 
-        public virtual async Task<T> UpdateAsync(int id)
+        public virtual async Task<T> UpdateAsync(T entity)
         {
-            var entity = await _dbContext.Set<T>().FindAsync(id);
             _dbContext.Entry(entity).State = EntityState.Modified;
             await _dbContext.SaveChangesAsync();
             return entity;
