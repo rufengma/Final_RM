@@ -1,4 +1,4 @@
-# Final_RM
+# Rufeng Ma's Final project: Hotel Management System
 This is a Hotel Management System
 Front end: MVC
 Backend: .Net 5
