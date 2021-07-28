@@ -1,6 +1,6 @@
 # Rufeng Ma's Final project: Hotel Management System
-This is a Hotel Management System
--- Development system: macOS</p>
+This is a Hotel Management System</p>
+-- Development system: <b>macOS</b></p>
 -- Front end: MVC</p>
 -- Backend: .Net 5</p>
 <h3>Before Run this project in VS,some suggestions</h3></p>
