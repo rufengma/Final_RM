@@ -1,20 +1,20 @@
 ﻿<Properties StartupConfiguration="{AC4DE488-A473-446C-8E33-CE83AF84AB60}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HotelManagement.Core/RepositoryInterfaces/ICustomerRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelManagement.MVC/Views/Service/AddService.cshtml">
     <Files>
-      <File FileName="HotelManagement.MVC/Controllers/CustomerController.cs" Line="58" Column="14" NotebookId="4" />
-      <File FileName="HotelManagement.Infrastructure/Services/CustomerService.cs" Line="101" Column="63" NotebookId="4" />
-      <File FileName="HotelManagement.Infrastructure/Repositories/CustomerRepository.cs" Line="13" Column="52" NotebookId="4" />
-      <File FileName="HotelManagement.Core/ServiceInterfaces/ICustomerService.cs" Line="15" Column="37" NotebookId="4" />
-      <File FileName="HotelManagement.Core/RepositoryInterfaces/ICustomerRepository.cs" Line="11" Column="71" NotebookId="4" />
+      <File FileName="HotelManagement.MVC/Controllers/CustomerController.cs" Line="58" Column="14" />
+      <File FileName="HotelManagement.Infrastructure/Services/CustomerService.cs" />
+      <File FileName="HotelManagement.Infrastructure/Repositories/CustomerRepository.cs" />
+      <File FileName="HotelManagement.Core/ServiceInterfaces/ICustomerService.cs" />
+      <File FileName="HotelManagement.Core/RepositoryInterfaces/ICustomerRepository.cs" Line="11" Column="71" />
+      <File FileName="HotelManagement.MVC/Views/Customer/AddCustomer.cshtml" Line="130" Column="59" />
+      <File FileName="HotelManagement.MVC/Views/Service/AddService.cshtml" Line="16" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HotelManagement" expanded="True">
             <Node name="HotelManagement.Core" expanded="True">
-              <Node name="RepositoryInterfaces" expanded="True">
-                <Node name="ICustomerRepository.cs" selected="True" />
-              </Node>
+              <Node name="RepositoryInterfaces" expanded="True" />
               <Node name="ServiceInterfaces" expanded="True" />
             </Node>
             <Node name="HotelManagement.Infrastructure" expanded="True">
@@ -23,6 +23,12 @@
             </Node>
             <Node name="HotelManagement.MVC" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Customer" expanded="True" />
+                <Node name="Service" expanded="True">
+                  <Node name="AddService.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

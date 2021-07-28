@@ -116,14 +116,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.Core/HotelManagement.Core.csproj",
+      "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/HotelManagement.Core.csproj",
       "projectName": "HotelManagement.Core",
-      "projectPath": "/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.Core/HotelManagement.Core.csproj",
+      "projectPath": "/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/HotelManagement.Core.csproj",
       "packagesPath": "/Users/rufengma/.nuget/packages/",
-      "outputPath": "/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.Core/obj/",
+      "outputPath": "/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rufengma/.nuget/NuGet/NuGet.Config"
+        "/Users/rufengma/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
