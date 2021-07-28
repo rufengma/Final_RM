@@ -38,11 +38,6 @@ namespace HotelManagement.MVC.Controllers
             return RedirectToAction("AddRoomtype");
         }
 
-        [HttpGet]
-        public IActionResult DeleteRoomtype()
-        {
-            return View();
-        }
 
         [HttpPost]
         public async Task<IActionResult> DeleteRoomtype(AddRoomtypeModel model)
@@ -58,9 +53,8 @@ namespace HotelManagement.MVC.Controllers
 
         public async Task<IActionResult> SearchRoomtype(AddRoomtypeModel model)
         {
-            var existRoomtype =await _roomtypeService.SearchRoomtype(model.Id);
+            var existRoomtype = await _roomtypeService.SearchRoomtype(model.Id);
             return View(existRoomtype);
         }
-
     }
 }

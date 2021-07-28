@@ -36,9 +36,35 @@ namespace HotelManagement.MVC.Controllers
             var createCustomer = await _customerService.AddCustomer(customerModel);
             return LocalRedirect("~/");
         }
-        public IActionResult EditCustomer()
+        [HttpPost]
+        public async Task<IActionResult> UpdateCustomer(AddCustomerModel model)
         {
-            return View();
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("AddCustomer");
+            }
+            var updateCustomer = await _customerService.UpdateCustomer(model.Id, model);
+            //redirect to login
+            return RedirectToAction("AddCustomer");
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteCustomer(AddCustomerModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("AddCustomer");
+            }
+            await _customerService.DeleteCustomer(model.Id);
+            //redirect to login
+            return RedirectToAction("AddCustomer");
+        }
+
+        public async Task<IActionResult> SearchCustomer(AddCustomerModel model)
+        {
+            var existCustomer = await _customerService.SearchCustomer(model.Id);
+            return View(existCustomer);
         }
     }
 }

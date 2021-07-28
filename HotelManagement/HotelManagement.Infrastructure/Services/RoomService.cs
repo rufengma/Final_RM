@@ -33,5 +33,18 @@ namespace HotelManagement.Infrastructure.Services
 
             return false;
         }
+        public async Task<Room> UpdateRoom(int id, AddRoomModel requestRoom)
+        {
+            return await _roomRepository.UpdateRoom(id, requestRoom);
+        }
+
+        public async Task DeleteRoom(int id)
+        {
+            await _roomRepository.DeleteAsync(id);
+        }
+        public async Task<Room> SearchRoom(int id)
+        {
+            return await _roomRepository.GetByIdAsync(id);
+        }
     }
 }

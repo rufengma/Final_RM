@@ -16,11 +16,6 @@ namespace HotelManagement.Infrastructure.Services
         {
             _serviceRepository = serviceRepository;
         }
-
-        public Task<List<Service>> GetAllServices()
-        {
-            throw new NotImplementedException();
-        }
         public async Task<bool> AddService(AddServiceModel requestService)
         {
 
@@ -40,6 +35,21 @@ namespace HotelManagement.Infrastructure.Services
 
             return false;
         }
+
+        public async Task<Service> UpdateService(int id, AddServiceModel requestService)
+        {
+            return await _serviceRepository.UpdateService(id, requestService);
+        }
+
+        public async Task DeleteService(int id)
+        {
+            await _serviceRepository.DeleteAsync(id);
+        }
+        public async Task<Service> SearchService(int id)
+        {
+            return await _serviceRepository.GetByIdAsync(id);
+        }
+
 
 
     }

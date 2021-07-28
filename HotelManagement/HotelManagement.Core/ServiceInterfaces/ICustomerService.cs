@@ -11,5 +11,8 @@ namespace HotelManagement.Core.ServiceInterfaces
         Task<List<Customer>> GetAllCustomers();
         Task<CustomerDetailResponseModel> GetCustomerById(int id);
         Task<bool> AddCustomer(AddCustomerModel requestCustomer);
+        Task<Customer> UpdateCustomer(int id, AddCustomerModel requestCustomer);
+        Task DeleteCustomer(int id);
+        Task<Customer> SearchCustomer(int id);
     }
 }

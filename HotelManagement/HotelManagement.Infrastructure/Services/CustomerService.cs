@@ -85,5 +85,20 @@ namespace HotelManagement.Infrastructure.Services
             }
             return customerDetails;
         }
+
+
+        public async Task<Customer> UpdateCustomer(int id, AddCustomerModel requestCustomer)
+        {
+            return await _customerRepository.UpdateCustomer(id, requestCustomer);
+        }
+
+        public async Task DeleteCustomer(int id)
+        {
+            await _customerRepository.DeleteAsync(id);
+        }
+        public async Task<Customer> SearchCustomer(int id)
+        {
+            return await _customerRepository.GetByIdAsync(id);
+        }
     }
 }
