@@ -8,7 +8,9 @@ namespace HotelManagement.Core.ServiceInterfaces
 {
     public interface IServiceService
     {
-        Task<List<Service>> GetAllServices();
         Task<bool> AddService(AddServiceModel requestService);
+        Task<Service> UpdateService(int id, AddServiceModel requestService);
+        Task DeleteService(int id);
+        Task<Service> SearchService(int id);
     }
 }

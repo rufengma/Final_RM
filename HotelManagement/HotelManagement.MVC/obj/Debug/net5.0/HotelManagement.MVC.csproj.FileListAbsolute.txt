@@ -82,3 +82,6 @@
 /Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Room/AddRoom.cshtml.g.cs
 /Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Roomtype/AddRoomtype.cshtml.g.cs
 /Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Roomtype/SearchRoomtype.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Customer/SearchCustomer.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Room/SearchRoom.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.MVC/obj/Debug/net5.0/Razor/Views/Service/SearchService.cshtml.g.cs

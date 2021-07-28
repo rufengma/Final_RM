@@ -15,7 +15,7 @@ namespace HotelManagement.Infrastructure.Repositories
         {
         }
         public async Task<Roomtype> UpdateRoomtype(int id, AddRoomtypeModel model) {
-            var local = _dbContext.Rooms.Local.FirstOrDefault(r => r.Id == id);
+            var local = _dbContext.Roomtypes.Local.FirstOrDefault(r => r.Id == id);
             if (local != null) _dbContext.Entry(local).State = EntityState.Detached;
             var entity = new Roomtype
             {

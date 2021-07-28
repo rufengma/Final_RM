@@ -1,6 +1,7 @@
-﻿@model HotelManagement.Core.Models.CustomerDetailResponseModel
+﻿@model HotelManagement.Core.Entities.Customer
+
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Customer By Id";
 }
 
 <div class="col-8">
@@ -18,15 +19,6 @@
             <tr>
                 <td>Room Number:</td>
                 <td>@Model.RoomNo</td>
-            </tr>
-            <tr>
-                <td>Services:</td>
-                <td>
-                    @foreach (var service in Model.roomModel.serviceModels)
-                    {
-                        <div>@service.SDesc</div>
-                    }
-                </td>
             </tr>
             <tr>
                 <td>Phone:</td>

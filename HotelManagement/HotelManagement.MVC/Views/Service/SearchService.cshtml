@@ -1,0 +1,27 @@
+﻿@model HotelManagement.Core.Entities.Service
+
+@{
+    ViewData["Title"] = "Service By Id";
+}
+
+<h5>Service with Id = @Model.Id</h5>
+<table class="table">
+    <tbody>
+
+        <tr>
+            <td>ID</td>
+            <td>Room Number</td>
+            <td>Service Description</td>
+            <td>Amount</td>
+            <td>Service Date</td>
+        </tr>
+
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.RoomNo</td>
+            <td>@Model.SDesc</td>
+            <td>@Model.Amount</td>
+            <td>@Model.ServiceDate</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,37 +1,28 @@
 ﻿<Properties StartupConfiguration="{AC4DE488-A473-446C-8E33-CE83AF84AB60}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HotelManagement.MVC/Views/Roomtype/AddRoomtype.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelManagement.Core/RepositoryInterfaces/ICustomerRepository.cs">
     <Files>
-      <File FileName="HotelManagement.MVC/Controllers/RoomtypeController.cs" Line="57" Column="10" />
-      <File FileName="HotelManagement.Infrastructure/Services/RoomtypeService.cs" Line="42" Column="59" />
-      <File FileName="HotelManagement.Core/ServiceInterfaces/IRoomtypeService.cs" Line="15" Column="2" />
-      <File FileName="HotelManagement.MVC/Views/Roomtype/SearchRoomtype.cshtml" Line="10" Column="1" />
-      <File FileName="HotelManagement.MVC/Views/Roomtype/AddRoomtype.cshtml" Line="71" Column="11" />
+      <File FileName="HotelManagement.MVC/Controllers/CustomerController.cs" Line="58" Column="14" NotebookId="4" />
+      <File FileName="HotelManagement.Infrastructure/Services/CustomerService.cs" Line="101" Column="63" NotebookId="4" />
+      <File FileName="HotelManagement.Infrastructure/Repositories/CustomerRepository.cs" Line="13" Column="52" NotebookId="4" />
+      <File FileName="HotelManagement.Core/ServiceInterfaces/ICustomerService.cs" Line="15" Column="37" NotebookId="4" />
+      <File FileName="HotelManagement.Core/RepositoryInterfaces/ICustomerRepository.cs" Line="11" Column="71" NotebookId="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HotelManagement" expanded="True">
             <Node name="HotelManagement.Core" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="Exceptions" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="RepositoryInterfaces" expanded="True" />
+              <Node name="RepositoryInterfaces" expanded="True">
+                <Node name="ICustomerRepository.cs" selected="True" />
+              </Node>
               <Node name="ServiceInterfaces" expanded="True" />
             </Node>
             <Node name="HotelManagement.Infrastructure" expanded="True">
-              <Node name="Data" expanded="True" />
               <Node name="Repositories" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
             <Node name="HotelManagement.MVC" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Roomtype" expanded="True">
-                  <Node name="AddRoomtype.cshtml" selected="True" />
-                </Node>
-                <Node name="Service" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
             </Node>
           </Node>
         </State>
