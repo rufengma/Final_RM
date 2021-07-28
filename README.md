@@ -13,7 +13,7 @@ macOS==></p>
 -- terminal: dotnet ef migrations add initialTables --project ../Infrastructure/Infrastructure.csproj</p>
 -- VS: check <migration> file</p>
 -- terminal: dotnet ef database update</p>
-4.Run the <inserteData.sql> file in your Azure Data Studio sql server management studio (SSMS).</p>
+4.Run the <inserteData.sql> file in your Azure Data Studio or sql server management studio (SSMS).</p>
 
 <h3>Schema</h3>
 <img src="Schema.png" height="400">
