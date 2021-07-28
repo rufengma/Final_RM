@@ -13,7 +13,7 @@ macOS==></p>
 -- terminal: dotnet ef migrations add initialTables --project ../Infrastructure/Infrastructure.csproj</p>
 -- VS: check <b>migration</b> file</p>
 -- terminal: dotnet ef database update</p>
-4.Run the <b>inserteData.sql</b> file in your Azure Data Studio or sql server management studio (SSMS).</p>
+4.Run the <b>inserteData.sql, the data come from MovieShop project</b> file in your Azure Data Studio or sql server management studio (SSMS).</p>
 
 <h3>Schema</h3>
 <img src="Schema.png" height="400">
