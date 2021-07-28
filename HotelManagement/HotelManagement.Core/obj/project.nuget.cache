@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BPoip8lBnf1Iu3FFn95HyXD/U2HpPMuXedOAlod5VkrdQi0X/98oP9nnpYFqxJzx0jpCRs4rH4YIGichWBhSCA==",
+  "dgSpecHash": "PXjpkVVNHMOMROfgIAgz0stkTKsO+jPFHv9SMEPl46JtCMJsqvHbWs5cy/fb+bnQTp6FqwjswjdJf2ft1xcVFQ==",
   "success": true,
-  "projectFilePath": "/Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.Core/HotelManagement.Core.csproj",
+  "projectFilePath": "/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/HotelManagement.Core.csproj",
   "expectedPackageFiles": [
     "/Users/rufengma/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],

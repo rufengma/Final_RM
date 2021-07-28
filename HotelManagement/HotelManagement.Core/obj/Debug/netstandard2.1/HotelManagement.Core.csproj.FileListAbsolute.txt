@@ -7,3 +7,12 @@
 /Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.Core/obj/Debug/netstandard2.1/HotelManagement.Core.csproj.CoreCompileInputs.cache
 /Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.Core/obj/Debug/netstandard2.1/HotelManagement.Core.dll
 /Users/rufengma/Documents/Job/Antra/Final_RM/HotelManagement/HotelManagement.Core/obj/Debug/netstandard2.1/HotelManagement.Core.pdb
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/bin/Debug/netstandard2.1/HotelManagement.Core.deps.json
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/bin/Debug/netstandard2.1/HotelManagement.Core.dll
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/bin/Debug/netstandard2.1/HotelManagement.Core.pdb
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/obj/Debug/netstandard2.1/HotelManagement.Core.csproj.AssemblyReference.cache
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/obj/Debug/netstandard2.1/HotelManagement.Core.AssemblyInfoInputs.cache
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/obj/Debug/netstandard2.1/HotelManagement.Core.AssemblyInfo.cs
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/obj/Debug/netstandard2.1/HotelManagement.Core.csproj.CoreCompileInputs.cache
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/obj/Debug/netstandard2.1/HotelManagement.Core.dll
+/Users/rufengma/Documents/Job/Antra/Upload/Final_RM/HotelManagement/HotelManagement.Core/obj/Debug/netstandard2.1/HotelManagement.Core.pdb
