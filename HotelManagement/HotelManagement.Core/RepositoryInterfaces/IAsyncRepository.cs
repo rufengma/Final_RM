@@ -11,7 +11,7 @@ namespace HotelManagement.Core.RepositoryInterfaces
         Task<T> GetByIdAsync(int id);
         Task<List<T>> ListAllAsync();
         Task<T> AddAsync(T entity);
-        Task<T> UpdateAsync(int id);
+        Task<T> UpdateAsync(T entity);
         Task DeleteAsync(int id);
     }
 }

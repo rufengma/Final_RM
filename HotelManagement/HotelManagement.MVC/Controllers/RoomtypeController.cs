@@ -25,5 +25,42 @@ namespace HotelManagement.MVC.Controllers
             var createService = await _roomtypeService.AddRoomtype(roomtypeModel);
             return LocalRedirect("~/");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateRoomtype(AddRoomtypeModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("AddRoomtype");
+            }
+            var updateRoomtype = await _roomtypeService.UpdateRoomtype(model.Id,model);
+            //redirect to login
+            return RedirectToAction("AddRoomtype");
+        }
+
+        [HttpGet]
+        public IActionResult DeleteRoomtype()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteRoomtype(AddRoomtypeModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("AddRoomtype");
+            }
+            await _roomtypeService.DeleteRoomtype(model.Id);
+            //redirect to login
+            return RedirectToAction("AddRoomtype");
+        }
+
+        public async Task<IActionResult> SearchRoomtype(AddRoomtypeModel model)
+        {
+            var existRoomtype =await _roomtypeService.SearchRoomtype(model.Id);
+            return View(existRoomtype);
+        }
+
     }
 }

@@ -21,4 +21,53 @@
             <button type="submit" class="btn btn-primary">Add</button>
         </form>
     </div>
+
+    <div class="col-md-3">
+        <h3>Update Roomtype</h3>
+        <form asp-action="UpdateRoomtype">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label asp-for="Id">Roomtype Id</label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="RTDesc">Roomtype Description</label>
+                <input asp-for="RTDesc" class="form-control" />
+                <span asp-validation-for="RTDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rent">Rent Per Day</label>
+                <input asp-for="Rent" class="form-control">
+                <span asp-validation-for="Rent" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+    </div>
+    <div class="col-md-3">
+        <h3>Delete Roomtype</h3>
+        <form asp-action="DeleteRoomtype">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label asp-for="Id">Roomtype Id</label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Delete</button>
+        </form>
+    </div>
+    <div class="col-md-3">
+        <h3>Search Roomtype</h3>
+        <form asp-action="SearchRoomtype">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label asp-for="Id">Roomtype Id</label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
 </div>
+
