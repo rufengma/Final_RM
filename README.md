@@ -3,7 +3,7 @@ This is a Hotel Management System
 -- Development system: macOS</p>
 -- Front end: MVC</p>
 -- Backend: .Net 5</p>
-<h3>Before Run this projec tin VS,some suggestions</h3></p>
+<h3>Before Run this project in VS,some suggestions</h3></p>
 1.If you are on a Windows system, please go to <appsetting.json> to change the Connection String to your server IP.</p>
 2.Run sql server</p>
 3.Migration once.</p>
