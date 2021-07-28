@@ -12,5 +12,6 @@ namespace HotelManagement.Core.ServiceInterfaces
         Task<Service> UpdateService(int id, AddServiceModel requestService);
         Task DeleteService(int id);
         Task<Service> SearchService(int id);
+        Task<List<Service>> GetAllServices();
     }
 }

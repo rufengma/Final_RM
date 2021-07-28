@@ -11,5 +11,6 @@ namespace HotelManagement.Core.ServiceInterfaces
         Task<Roomtype> UpdateRoomtype(int id, AddRoomtypeModel requestRoomtype);
         Task DeleteRoomtype(int id);
         Task<Roomtype> SearchRoomtype(int id);
+        Task<List<Roomtype>> GetAllRoomtypes();
     }
 }
