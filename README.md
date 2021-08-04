@@ -1,4 +1,4 @@
-# Rufeng Ma's Final project: Hotel Management System
+# Hotel Management System
 This is a Hotel Management System</p>
 -- Development system: <b>macOS</b></p>
 -- Front end: MVC</p>
